@@ -1,0 +1,29 @@
+{
+  "name": "filter-helper",
+  "version": "0.1.0",
+  "description": "Helps building unix filters with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "./test/run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eloyesp/filter-helper"
+  },
+  "keywords": [
+    "sed",
+    "stdio",
+    "filter",
+    "unix"
+  ],
+  "author": "Eloy Espinaco <eloyesp@gmail.com>",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/eloyesp/filter-helper/issues"
+  },
+  "homepage": "https://github.com/eloyesp/filter-helper",
+  "dependencies": {
+    "split": "^0.3.3",
+    "through": "^2.3.7"
+  }
+}

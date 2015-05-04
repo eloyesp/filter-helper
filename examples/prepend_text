@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var fh = require('../');
+
+fh(function (line) {
+  return process.argv[2] + " " + line;
+});
